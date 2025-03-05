@@ -46,8 +46,10 @@ O servidor estará disponível em:
 
 O projeto utiliza o Swagger para documentar e testar a API. Após rodar o projeto, você pode acessar a interface do Swagger no seguinte endereço:
 
-http://localhost:8080/swagger-ui.html
-Endpoints disponíveis
+    http://localhost:8080/swagger-ui.html
+
+
+Endpoints disponíveis:
 
     POST /validate: Valida os dados do usuário.
 
