@@ -17,8 +17,9 @@ Antes de rodar o projeto, certifique-se de que você tem as seguintes ferramenta
 Abra o terminal e execute o seguinte comando para clonar o repositório:
 
 
-git clone https://github.com/Shwonck/Validation-Engine.git
-cd Validation-Engine
+    git clone https://github.com/Shwonck/Validation-Engine.git
+    
+    cd Validation-Engine
 
 
 2. Configure o projeto
@@ -28,16 +29,18 @@ Certifique-se de que o Maven está configurado corretamente. Se estiver usando u
 
 Execute o seguinte comando para instalar as dependências do projeto:
 
-mvn clean install
+    mvn clean install
 
 4. Execute o projeto
 
 Para rodar o projeto, execute o seguinte comando:
 
-mvn spring-boot:run
+    mvn spring-boot:run
 
 
-O servidor estará disponível em: http://localhost:8080.
+O servidor estará disponível em:
+
+    http://localhost:8080
 
 📚 Documentação da API com Swagger
 
@@ -49,8 +52,6 @@ Endpoints disponíveis
     POST /validate: Valida os dados do usuário.
 
         Exemplo de requisição:
-        json
-        Copy
 
         {
           "cpf": "123.456.789-09",
@@ -72,21 +73,20 @@ Endpoints disponíveis
 🛠️ Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
-Copy
-
-src/
-├── main/
-│   ├── java/
-│   │   ├── com.shwonck.validation_engine/
-│   │   │   ├── controller/          # Controllers da API
-│   │   │   ├── model/               # Modelos de dados
-│   │   │   ├── service/             # Lógica de negócio
-│   │   │   ├── utils/               # Utilitários e validadores
-│   │   │   └── ValidationEngineApplication.java # Classe principal
-│   ├── resources/
-│   │   ├── application.properties   # Configurações do projeto
-└── test/
-    └── java/                        # Testes unitários e de integração
+    
+    src/
+    ├── main/
+    │   ├── java/
+    │   │   ├── com.shwonck.validation_engine/
+    │   │   │   ├── controller/          # Controllers da API
+    │   │   │   ├── model/               # Modelos de dados
+    │   │   │   ├── service/             # Lógica de negócio
+    │   │   │   ├── utils/               # Utilitários e validadores
+    │   │   │   └── ValidationEngineApplication.java # Classe principal
+    │   ├── resources/
+    │   │   ├── application.properties   # Configurações do projeto
+    └── test/
+        └── java/                        # Testes unitários e de integração
 
 📦 Dependências do Projeto
 
