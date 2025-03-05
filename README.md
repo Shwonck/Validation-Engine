@@ -15,11 +15,11 @@ Antes de rodar o projeto, certifique-se de que você tem as seguintes ferramenta
 1. Clone o repositório
 
 Abra o terminal e execute o seguinte comando para clonar o repositório:
-bash
-Copy
+
 
 git clone https://github.com/Shwonck/Validation-Engine.git
 cd Validation-Engine
+
 
 2. Configure o projeto
 
@@ -38,6 +38,7 @@ mvn spring-boot:run
 
 
 O servidor estará disponível em: http://localhost:8080.
+
 📚 Documentação da API com Swagger
 
 O projeto utiliza o Swagger para documentar e testar a API. Após rodar o projeto, você pode acessar a interface do Swagger no seguinte endereço:
